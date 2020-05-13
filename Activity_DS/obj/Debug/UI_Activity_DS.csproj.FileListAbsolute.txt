@@ -1,0 +1,17 @@
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\bin\Debug\Activity_DS.exe.config
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\bin\Debug\Activity_DS.exe
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\bin\Debug\Activity_DS.pdb
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\bin\Debug\BLL_Acitivity_DS.dll
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\bin\Debug\DTO_Acitivity_DS.dll
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\bin\Debug\BLL_Acitivity_DS.pdb
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\bin\Debug\DTO_Acitivity_DS.pdb
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\UI_Activity_DS.csprojAssemblyReference.cache
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\Activity_DS.Properties.Resources.resources
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\UI_Activity_DS.csproj.GenerateResource.cache
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\UI_Activity_DS.csproj.CoreCompileInputs.cache
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\UI_Activity_DS.csproj.CopyComplete
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\Activity_DS.exe
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\Activity_DS.pdb
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\Activity_DS.Cadastro.resources
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\UI_Activity_DS.Home.resources
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\Activity_DS.Login.resources

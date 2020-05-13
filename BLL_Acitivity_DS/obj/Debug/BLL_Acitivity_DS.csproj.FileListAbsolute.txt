@@ -1,0 +1,11 @@
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\BLL_Acitivity_DS\bin\Debug\BLL_Acitivity_DS.dll
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\BLL_Acitivity_DS\bin\Debug\BLL_Acitivity_DS.pdb
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\BLL_Acitivity_DS\bin\Debug\DAL_Acitivity_DS.dll
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\BLL_Acitivity_DS\bin\Debug\DTO_Acitivity_DS.dll
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\BLL_Acitivity_DS\bin\Debug\DAL_Acitivity_DS.pdb
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\BLL_Acitivity_DS\bin\Debug\DTO_Acitivity_DS.pdb
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\BLL_Acitivity_DS\obj\Debug\BLL_Acitivity_DS.csprojAssemblyReference.cache
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\BLL_Acitivity_DS\obj\Debug\BLL_Acitivity_DS.csproj.CoreCompileInputs.cache
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\BLL_Acitivity_DS\obj\Debug\BLL_Acitivity_DS.csproj.CopyComplete
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\BLL_Acitivity_DS\obj\Debug\BLL_Acitivity_DS.dll
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\BLL_Acitivity_DS\obj\Debug\BLL_Acitivity_DS.pdb
