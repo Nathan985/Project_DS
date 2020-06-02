@@ -52,6 +52,12 @@
     <Compile Include="Cadastro.Designer.cs">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Adm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adm.Designer.cs">
+      <DependentUpon>Adm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,8 +70,17 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Perfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perfil.Designer.cs">
+      <DependentUpon>Perfil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Adm.resx">
+      <DependentUpon>Adm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perfil.resx">
+      <DependentUpon>Perfil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -155,6 +173,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_be.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pesquisar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pesquisar-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pesquisar-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-produto-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-usuário-masculino-tipo-de-pele-com-círculo-3-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gráfico-combinado-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gráfico-combinado-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-histórico-médico-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-histórico-médico-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-editar-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-06-01 at 14.54.17.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

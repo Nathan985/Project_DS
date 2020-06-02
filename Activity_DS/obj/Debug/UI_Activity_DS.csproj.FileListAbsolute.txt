@@ -15,3 +15,7 @@ C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\Act
 C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\Activity_DS.Cadastro.resources
 C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\UI_Activity_DS.Home.resources
 C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\Activity_DS.Login.resources
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\bin\Debug\DAL_Acitivity_DS.dll
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\bin\Debug\DAL_Acitivity_DS.pdb
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\Activity_DS.Adm.resources
+C:\Users\NATHANPEREIRACAVALCA\source\repos\Activity_DS\Activity_DS\obj\Debug\Activity_DS.Perfil.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Activity_DS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,30 @@ namespace UI_Activity_DS
         public Home()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.ShowDialog();
+            this.Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Adm adm = new Adm();
+            adm.ShowDialog();
+            this.Close();
+        }
+
+        private void pictureBox26_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Perfil pf = new Perfil();
+            pf.ShowDialog();
+            this.Close();
         }
     }
 }
