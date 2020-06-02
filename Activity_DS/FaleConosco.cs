@@ -11,9 +11,9 @@ using UI_Activity_DS;
 
 namespace Activity_DS
 {
-    public partial class Adm : Form
+    public partial class FaleConosco : Form
     {
-        public Adm()
+        public FaleConosco()
         {
             InitializeComponent();
         }
@@ -24,7 +24,14 @@ namespace Activity_DS
             Home hm = new Home();
             hm.ShowDialog();
             this.Close();
+        }
 
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Adm adm = new Adm();
+            adm.ShowDialog();
+            this.Close();
         }
 
         private void pictureBox26_Click(object sender, EventArgs e)
@@ -32,14 +39,6 @@ namespace Activity_DS
             this.Hide();
             Perfil pf = new Perfil();
             pf.ShowDialog();
-            this.Close();
-        }
-
-        private void pictureBox27_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            FaleConosco fl = new FaleConosco();
-            fl.ShowDialog();
             this.Close();
         }
     }

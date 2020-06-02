@@ -33,5 +33,13 @@ namespace Activity_DS
             adm.ShowDialog();
             this.Close();
         }
+
+        private void pictureBox27_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FaleConosco fl = new FaleConosco();
+            fl.ShowDialog();
+            this.Close();
+        }
     }
 }

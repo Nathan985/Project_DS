@@ -58,6 +58,12 @@
     <Compile Include="Adm.Designer.cs">
       <DependentUpon>Adm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FaleConosco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaleConosco.Designer.cs">
+      <DependentUpon>FaleConosco.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaleConosco.resx">
+      <DependentUpon>FaleConosco.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -227,6 +236,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-consulta-100 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
