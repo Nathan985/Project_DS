@@ -1,4 +1,5 @@
 ﻿using Activity_DS;
+using DTO_Acitivity_DS;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,9 +14,27 @@ namespace UI_Activity_DS
 {
     public partial class Home : Form
     {
+        DTO_Entidade ObjEnt;
         public Home()
         {
             InitializeComponent();
+        }
+        public Home(DTO_Entidade objEnt)
+        {
+            InitializeComponent();
+            this.ObjEnt = objEnt;
+
+            if (objEnt.tipo == "Cliente")
+            {
+                    Cliente();
+            }
+        }
+
+        public void Cliente (){
+
+            pictureBox6.Visible = false;
+            pictureBox6.Enabled = false;
+
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
@@ -29,7 +48,7 @@ namespace UI_Activity_DS
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Adm adm = new Adm();
+            Adm adm = new Adm(ObjEnt);
             adm.ShowDialog();
             this.Close();
         }
@@ -37,7 +56,7 @@ namespace UI_Activity_DS
         private void pictureBox26_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Perfil pf = new Perfil();
+            Perfil pf = new Perfil(ObjEnt);
             pf.ShowDialog();
             this.Close();
         }
@@ -45,7 +64,7 @@ namespace UI_Activity_DS
         private void pictureBox27_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FaleConosco fl = new FaleConosco();
+            FaleConosco fl = new FaleConosco(ObjEnt);
             fl.ShowDialog();
             this.Close();
         }

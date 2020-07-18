@@ -27,8 +27,33 @@ namespace Activity_DS
                 DTO_Login objLog = new DTO_Login();
                 objLog.nome = name_Log.Text;
                 objLog.senha = pass_Log.Text;
+                DTO_Entidade objEnt = new DTO_Entidade();
 
-                MessageBox.Show(BLL_Login.ValidarLogin(objLog));
+                objEnt = BLL_Login.ValidarLogin(objLog);
+
+                if (objEnt.loginStatus)
+                {
+                    
+                    if(objEnt.tipo == "Cliente")
+                    {
+                        this.Hide();
+                        Home hm = new Home(objEnt);
+                        hm.ShowDialog();
+                        this.Close();
+                    }
+                    else if(objEnt.tipo == "Admin" || objEnt.tipo == "Funcionario" || objEnt.tipo == "Operador")
+                    {
+                        this.Hide();
+                        Adm adm = new Adm(objEnt);
+                        adm.ShowDialog();
+                        this.Close();
+                    }
+
+                }
+                else
+                {
+                    MessageBox.Show("Usuario ou Senha invalidos", "ERRO LOGIN", MessageBoxButtons.OK);
+                }
             }
             catch(Exception ex)
             {
@@ -41,22 +66,6 @@ namespace Activity_DS
             this.Hide();
             Cadastro cad = new Cadastro();
             cad.ShowDialog();
-            this.Close();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Home hm = new Home();
-            hm.ShowDialog();
-            this.Close();
-        }
-
-        private void pictureBox24_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Home hm = new Home();
-            hm.ShowDialog();
             this.Close();
         }
     }

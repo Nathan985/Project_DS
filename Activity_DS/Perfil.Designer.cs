@@ -40,20 +40,20 @@
             this.label49 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.box_name = new System.Windows.Forms.TextBox();
+            this.box_senha = new System.Windows.Forms.TextBox();
+            this.box_nick = new System.Windows.Forms.TextBox();
+            this.box_Email = new System.Windows.Forms.TextBox();
+            this.box_cpf = new System.Windows.Forms.TextBox();
+            this.box_endereco = new System.Windows.Forms.TextBox();
+            this.box_bairro = new System.Windows.Forms.TextBox();
+            this.box_cidade = new System.Windows.Forms.TextBox();
+            this.box_numero = new System.Windows.Forms.TextBox();
+            this.box_cep = new System.Windows.Forms.TextBox();
+            this.TitlePf = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.box_uf = new System.Windows.Forms.TextBox();
+            this.box_cargo = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.pictureBox29 = new System.Windows.Forms.PictureBox();
@@ -75,6 +75,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.box_cell = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
@@ -101,7 +103,7 @@
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.ForeColor = System.Drawing.Color.White;
-            this.label45.Location = new System.Drawing.Point(114, 253);
+            this.label45.Location = new System.Drawing.Point(75, 252);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(57, 23);
             this.label45.TabIndex = 31;
@@ -112,29 +114,29 @@
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label55.ForeColor = System.Drawing.Color.White;
-            this.label55.Location = new System.Drawing.Point(114, 441);
+            this.label55.Location = new System.Drawing.Point(75, 440);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(44, 23);
+            this.label55.Size = new System.Drawing.Size(60, 23);
             this.label55.TabIndex = 42;
-            this.label55.Text = "Fixo";
+            this.label55.Text = "Senha";
             // 
             // label56
             // 
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label56.ForeColor = System.Drawing.Color.White;
-            this.label56.Location = new System.Drawing.Point(114, 393);
+            this.label56.Location = new System.Drawing.Point(75, 392);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(66, 23);
+            this.label56.Size = new System.Drawing.Size(48, 23);
             this.label56.TabIndex = 41;
-            this.label56.Text = "Celular";
+            this.label56.Text = "Nick";
             // 
             // label54
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label54.ForeColor = System.Drawing.Color.White;
-            this.label54.Location = new System.Drawing.Point(828, 254);
+            this.label54.Location = new System.Drawing.Point(810, 251);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(33, 23);
             this.label54.TabIndex = 40;
@@ -145,7 +147,7 @@
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label53.ForeColor = System.Drawing.Color.White;
-            this.label53.Location = new System.Drawing.Point(497, 393);
+            this.label53.Location = new System.Drawing.Point(429, 393);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(64, 23);
             this.label53.TabIndex = 39;
@@ -156,7 +158,7 @@
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label51.ForeColor = System.Drawing.Color.White;
-            this.label51.Location = new System.Drawing.Point(497, 349);
+            this.label51.Location = new System.Drawing.Point(429, 349);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(58, 23);
             this.label51.TabIndex = 38;
@@ -167,7 +169,7 @@
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label52.ForeColor = System.Drawing.Color.White;
-            this.label52.Location = new System.Drawing.Point(497, 441);
+            this.label52.Location = new System.Drawing.Point(429, 441);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(31, 23);
             this.label52.TabIndex = 37;
@@ -178,7 +180,7 @@
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label50.ForeColor = System.Drawing.Color.White;
-            this.label50.Location = new System.Drawing.Point(497, 301);
+            this.label50.Location = new System.Drawing.Point(429, 301);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(85, 23);
             this.label50.TabIndex = 36;
@@ -189,7 +191,7 @@
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label49.ForeColor = System.Drawing.Color.White;
-            this.label49.Location = new System.Drawing.Point(497, 253);
+            this.label49.Location = new System.Drawing.Point(429, 253);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(43, 23);
             this.label49.TabIndex = 35;
@@ -200,7 +202,7 @@
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.Color.White;
-            this.label47.Location = new System.Drawing.Point(114, 301);
+            this.label47.Location = new System.Drawing.Point(75, 300);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(42, 23);
             this.label47.TabIndex = 33;
@@ -211,141 +213,141 @@
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.ForeColor = System.Drawing.Color.White;
-            this.label46.Location = new System.Drawing.Point(114, 349);
+            this.label46.Location = new System.Drawing.Point(75, 348);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(33, 23);
+            this.label46.Size = new System.Drawing.Size(56, 23);
             this.label46.TabIndex = 32;
-            this.label46.Text = "RG";
+            this.label46.Text = "Email";
             // 
-            // textBox19
+            // box_name
             // 
-            this.textBox19.Enabled = false;
-            this.textBox19.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(186, 253);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(164, 27);
-            this.textBox19.TabIndex = 43;
+            this.box_name.Enabled = false;
+            this.box_name.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_name.Location = new System.Drawing.Point(147, 252);
+            this.box_name.Name = "box_name";
+            this.box_name.Size = new System.Drawing.Size(232, 27);
+            this.box_name.TabIndex = 43;
             // 
-            // textBox1
+            // box_senha
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(186, 441);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(164, 27);
-            this.textBox1.TabIndex = 44;
+            this.box_senha.Enabled = false;
+            this.box_senha.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_senha.Location = new System.Drawing.Point(147, 440);
+            this.box_senha.Name = "box_senha";
+            this.box_senha.Size = new System.Drawing.Size(232, 27);
+            this.box_senha.TabIndex = 44;
             // 
-            // textBox2
+            // box_nick
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(186, 393);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(164, 27);
-            this.textBox2.TabIndex = 45;
+            this.box_nick.Enabled = false;
+            this.box_nick.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_nick.Location = new System.Drawing.Point(147, 392);
+            this.box_nick.Name = "box_nick";
+            this.box_nick.Size = new System.Drawing.Size(232, 27);
+            this.box_nick.TabIndex = 45;
             // 
-            // textBox3
+            // box_Email
             // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(186, 349);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(164, 27);
-            this.textBox3.TabIndex = 46;
+            this.box_Email.Enabled = false;
+            this.box_Email.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_Email.Location = new System.Drawing.Point(147, 348);
+            this.box_Email.Name = "box_Email";
+            this.box_Email.Size = new System.Drawing.Size(232, 27);
+            this.box_Email.TabIndex = 46;
             // 
-            // textBox4
+            // box_cpf
             // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(186, 301);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(164, 27);
-            this.textBox4.TabIndex = 47;
+            this.box_cpf.Enabled = false;
+            this.box_cpf.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_cpf.Location = new System.Drawing.Point(147, 300);
+            this.box_cpf.Name = "box_cpf";
+            this.box_cpf.Size = new System.Drawing.Size(232, 27);
+            this.box_cpf.TabIndex = 47;
             // 
-            // textBox5
+            // box_endereco
             // 
-            this.textBox5.Enabled = false;
-            this.textBox5.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(588, 300);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(164, 27);
-            this.textBox5.TabIndex = 52;
+            this.box_endereco.Enabled = false;
+            this.box_endereco.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_endereco.Location = new System.Drawing.Point(520, 300);
+            this.box_endereco.Name = "box_endereco";
+            this.box_endereco.Size = new System.Drawing.Size(232, 27);
+            this.box_endereco.TabIndex = 52;
             // 
-            // textBox6
+            // box_bairro
             // 
-            this.textBox6.Enabled = false;
-            this.textBox6.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(588, 348);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(164, 27);
-            this.textBox6.TabIndex = 51;
+            this.box_bairro.Enabled = false;
+            this.box_bairro.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_bairro.Location = new System.Drawing.Point(520, 348);
+            this.box_bairro.Name = "box_bairro";
+            this.box_bairro.Size = new System.Drawing.Size(232, 27);
+            this.box_bairro.TabIndex = 51;
             // 
-            // textBox7
+            // box_cidade
             // 
-            this.textBox7.Enabled = false;
-            this.textBox7.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(588, 392);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(164, 27);
-            this.textBox7.TabIndex = 50;
+            this.box_cidade.Enabled = false;
+            this.box_cidade.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_cidade.Location = new System.Drawing.Point(520, 392);
+            this.box_cidade.Name = "box_cidade";
+            this.box_cidade.Size = new System.Drawing.Size(232, 27);
+            this.box_cidade.TabIndex = 50;
             // 
-            // textBox8
+            // box_numero
             // 
-            this.textBox8.Enabled = false;
-            this.textBox8.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(588, 440);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(164, 27);
-            this.textBox8.TabIndex = 49;
+            this.box_numero.Enabled = false;
+            this.box_numero.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_numero.Location = new System.Drawing.Point(520, 440);
+            this.box_numero.Name = "box_numero";
+            this.box_numero.Size = new System.Drawing.Size(232, 27);
+            this.box_numero.TabIndex = 49;
             // 
-            // textBox9
+            // box_cep
             // 
-            this.textBox9.Enabled = false;
-            this.textBox9.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(588, 252);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(164, 27);
-            this.textBox9.TabIndex = 48;
+            this.box_cep.Enabled = false;
+            this.box_cep.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_cep.Location = new System.Drawing.Point(520, 252);
+            this.box_cep.Name = "box_cep";
+            this.box_cep.Size = new System.Drawing.Size(232, 27);
+            this.box_cep.TabIndex = 48;
             // 
-            // label1
+            // TitlePf
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(214, 156);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 23);
-            this.label1.TabIndex = 53;
-            this.label1.Text = "Bem Vindo (Nome)";
+            this.TitlePf.AutoSize = true;
+            this.TitlePf.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitlePf.ForeColor = System.Drawing.Color.White;
+            this.TitlePf.Location = new System.Drawing.Point(214, 156);
+            this.TitlePf.Name = "TitlePf";
+            this.TitlePf.Size = new System.Drawing.Size(160, 23);
+            this.TitlePf.TabIndex = 53;
+            this.TitlePf.Text = "Bem Vindo (Nome)";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(828, 302);
+            this.label2.Location = new System.Drawing.Point(810, 299);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 23);
             this.label2.TabIndex = 54;
             this.label2.Text = "Cargo";
             // 
-            // textBox10
+            // box_uf
             // 
-            this.textBox10.Enabled = false;
-            this.textBox10.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(890, 254);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(164, 27);
-            this.textBox10.TabIndex = 56;
+            this.box_uf.Enabled = false;
+            this.box_uf.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_uf.Location = new System.Drawing.Point(872, 251);
+            this.box_uf.Name = "box_uf";
+            this.box_uf.Size = new System.Drawing.Size(232, 27);
+            this.box_uf.TabIndex = 56;
             // 
-            // textBox11
+            // box_cargo
             // 
-            this.textBox11.Enabled = false;
-            this.textBox11.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(890, 302);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(164, 27);
-            this.textBox11.TabIndex = 55;
+            this.box_cargo.Enabled = false;
+            this.box_cargo.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_cargo.Location = new System.Drawing.Point(872, 299);
+            this.box_cargo.Name = "box_cargo";
+            this.box_cargo.Size = new System.Drawing.Size(232, 27);
+            this.box_cargo.TabIndex = 55;
             // 
             // label32
             // 
@@ -361,7 +363,7 @@
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Roboto Slab", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(895, 472);
+            this.button8.Location = new System.Drawing.Point(897, 443);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(159, 58);
             this.button8.TabIndex = 67;
@@ -421,7 +423,7 @@
             // 
             this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox14.Image = global::Activity_DS.Properties.Resources.icons8_editar_24;
-            this.pictureBox14.Location = new System.Drawing.Point(1064, 257);
+            this.pictureBox14.Location = new System.Drawing.Point(1110, 251);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(24, 24);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -432,7 +434,7 @@
             // 
             this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox13.Image = global::Activity_DS.Properties.Resources.icons8_editar_24;
-            this.pictureBox13.Location = new System.Drawing.Point(762, 303);
+            this.pictureBox13.Location = new System.Drawing.Point(756, 302);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(24, 24);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -443,7 +445,7 @@
             // 
             this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox12.Image = global::Activity_DS.Properties.Resources.icons8_editar_24;
-            this.pictureBox12.Location = new System.Drawing.Point(762, 351);
+            this.pictureBox12.Location = new System.Drawing.Point(756, 350);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(24, 24);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -454,7 +456,7 @@
             // 
             this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox11.Image = global::Activity_DS.Properties.Resources.icons8_editar_24;
-            this.pictureBox11.Location = new System.Drawing.Point(762, 396);
+            this.pictureBox11.Location = new System.Drawing.Point(756, 395);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(24, 24);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -465,7 +467,7 @@
             // 
             this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox10.Image = global::Activity_DS.Properties.Resources.icons8_editar_24;
-            this.pictureBox10.Location = new System.Drawing.Point(762, 444);
+            this.pictureBox10.Location = new System.Drawing.Point(756, 443);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(24, 24);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -476,7 +478,7 @@
             // 
             this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox9.Image = global::Activity_DS.Properties.Resources.icons8_editar_24;
-            this.pictureBox9.Location = new System.Drawing.Point(360, 396);
+            this.pictureBox9.Location = new System.Drawing.Point(384, 393);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(24, 24);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -487,7 +489,7 @@
             // 
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = global::Activity_DS.Properties.Resources.icons8_editar_24;
-            this.pictureBox7.Location = new System.Drawing.Point(762, 255);
+            this.pictureBox7.Location = new System.Drawing.Point(756, 254);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(24, 24);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -498,7 +500,7 @@
             // 
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::Activity_DS.Properties.Resources.icons8_editar_24;
-            this.pictureBox5.Location = new System.Drawing.Point(361, 444);
+            this.pictureBox5.Location = new System.Drawing.Point(385, 441);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(24, 24);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -509,7 +511,7 @@
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::Activity_DS.Properties.Resources.icons8_editar_24;
-            this.pictureBox4.Location = new System.Drawing.Point(361, 254);
+            this.pictureBox4.Location = new System.Drawing.Point(385, 251);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(24, 24);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -585,12 +587,34 @@
             this.pictureBox8.TabIndex = 25;
             this.pictureBox8.TabStop = false;
             // 
+            // box_cell
+            // 
+            this.box_cell.Enabled = false;
+            this.box_cell.Font = new System.Drawing.Font("Roboto Slab", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_cell.Location = new System.Drawing.Point(872, 344);
+            this.box_cell.Name = "box_cell";
+            this.box_cell.Size = new System.Drawing.Size(232, 27);
+            this.box_cell.TabIndex = 76;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(810, 345);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 23);
+            this.label3.TabIndex = 75;
+            this.label3.Text = "Celular";
+            // 
             // Perfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1145, 590);
+            this.Controls.Add(this.box_cell);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox29);
             this.Controls.Add(this.pictureBox28);
             this.Controls.Add(this.pictureBox27);
@@ -606,20 +630,20 @@
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.box_uf);
+            this.Controls.Add(this.box_cargo);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox19);
+            this.Controls.Add(this.TitlePf);
+            this.Controls.Add(this.box_endereco);
+            this.Controls.Add(this.box_bairro);
+            this.Controls.Add(this.box_cidade);
+            this.Controls.Add(this.box_numero);
+            this.Controls.Add(this.box_cep);
+            this.Controls.Add(this.box_cpf);
+            this.Controls.Add(this.box_Email);
+            this.Controls.Add(this.box_nick);
+            this.Controls.Add(this.box_senha);
+            this.Controls.Add(this.box_name);
             this.Controls.Add(this.label55);
             this.Controls.Add(this.label56);
             this.Controls.Add(this.label54);
@@ -688,20 +712,20 @@
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox box_name;
+        private System.Windows.Forms.TextBox box_senha;
+        private System.Windows.Forms.TextBox box_nick;
+        private System.Windows.Forms.TextBox box_Email;
+        private System.Windows.Forms.TextBox box_cpf;
+        private System.Windows.Forms.TextBox box_endereco;
+        private System.Windows.Forms.TextBox box_bairro;
+        private System.Windows.Forms.TextBox box_cidade;
+        private System.Windows.Forms.TextBox box_numero;
+        private System.Windows.Forms.TextBox box_cep;
+        private System.Windows.Forms.Label TitlePf;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox box_uf;
+        private System.Windows.Forms.TextBox box_cargo;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox7;
@@ -717,5 +741,7 @@
         private System.Windows.Forms.PictureBox pictureBox29;
         private System.Windows.Forms.PictureBox pictureBox28;
         private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.TextBox box_cell;
+        private System.Windows.Forms.Label label3;
     }
 }

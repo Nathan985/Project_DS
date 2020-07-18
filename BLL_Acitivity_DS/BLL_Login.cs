@@ -12,7 +12,7 @@ namespace BLL_Acitivity_DS
     public class BLL_Login
     {
 
-        public static string ValidarLogin(DTO_Login ObjLog)
+        public static DTO_Entidade ValidarLogin(DTO_Login ObjLog)
         {
 
             if (string.IsNullOrWhiteSpace(ObjLog.nome))
@@ -25,6 +25,8 @@ namespace BLL_Acitivity_DS
             }
 
             Conexao.Conectar();
+
+            
 
             return DAL_Login.ValidarLogin(ObjLog);
         }

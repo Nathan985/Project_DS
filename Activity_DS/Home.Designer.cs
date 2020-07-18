@@ -145,6 +145,7 @@
             this.pictureBox9.Size = new System.Drawing.Size(122, 39);
             this.pictureBox9.TabIndex = 17;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Visible = false;
             this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox24

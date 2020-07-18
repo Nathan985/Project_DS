@@ -203,6 +203,16 @@ namespace Activity_DS.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_produto_1001 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-produto-1001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_usuário_masculino_tipo_de_pele_com_círculo_3_100 {
             get {
                 object obj = ResourceManager.GetObject("icons8-usuário-masculino-tipo-de-pele-com-círculo-3-100", resourceCulture);

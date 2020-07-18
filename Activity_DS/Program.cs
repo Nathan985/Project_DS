@@ -19,7 +19,7 @@ namespace UI_Activity_DS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Adm());
+            Application.Run(new Login());
         }
     }
 }

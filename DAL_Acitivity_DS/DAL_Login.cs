@@ -11,7 +11,7 @@ namespace DAL_Acitivity_DS
 {
     public class DAL_Login
     {
-        public static string ValidarLogin(DTO_Login obj)
+        public static DTO_Entidade ValidarLogin(DTO_Login obj)
         {
             try
             {
@@ -25,18 +25,33 @@ namespace DAL_Acitivity_DS
                 SqlDataReader dados = cm.ExecuteReader();
                 //roda a intruçao sql e atribui resultado no SqlDataReader
 
+                DTO_Entidade objent = new DTO_Entidade();
+
                 while (dados.Read())
                 //le a proxima linha do resultado da sua instruçao
                 {
                     if (dados.HasRows)
                     //se der certo vai aparecer a message de conexao feita
                     {
-                        return "Sucesso";
+                        objent.idUser = int.Parse(dados["idUser"].ToString());
+                        objent.nome = dados["nome"].ToString();
+                        objent.email = dados["email"].ToString();
+                        objent.nick = dados["nick"].ToString();
+                        objent.senha = dados["senha"].ToString();
+                        objent.tipo = dados["tipo"].ToString();
+                        objent.ativo = dados["ativo"].ToString();
+                        objent.cpf = dados["cpf"].ToString();
+
+                        objent.loginStatus = true;
+
+                        return objent;
                     }
                 }
 
-                throw new Exception("Usuário ou senha inválidos!");
-            
+                objent.loginStatus = false;
+
+                return objent;
+
             }
             catch (Exception ex)
             {

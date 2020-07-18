@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL_AlterarProduto.cs" />
+    <Compile Include="BLL_BuscarProduto.cs" />
     <Compile Include="BLL_Cadastro.cs" />
     <Compile Include="BLL_Login.cs" />
+    <Compile Include="BLL_Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

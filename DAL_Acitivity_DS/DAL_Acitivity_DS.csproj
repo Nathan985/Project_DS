@@ -42,8 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexao.cs" />
+    <Compile Include="DAL_AlterarProduto.cs" />
+    <Compile Include="DAL_BuscarProduto.cs" />
     <Compile Include="DAL_Cadastro.cs" />
     <Compile Include="DAL_Login.cs" />
+    <Compile Include="DAL_Produtos.cs" />
+    <Compile Include="DAL_ValidarProduto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

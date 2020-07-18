@@ -31,32 +31,43 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Adm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.PagePerfil = new System.Windows.Forms.TabPage();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.saida_pf = new System.Windows.Forms.Label();
+            this.entrada_pf = new System.Windows.Forms.Label();
+            this.lb_pf_cargo = new System.Windows.Forms.Label();
+            this.lb_pf_email = new System.Windows.Forms.Label();
+            this.lb_pf_nome = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.recado_Inp = new System.Windows.Forms.RichTextBox();
+            this.saida = new System.Windows.Forms.Label();
+            this.entrada = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.lb_cargo = new System.Windows.Forms.Label();
+            this.lb_email = new System.Windows.Forms.Label();
+            this.lb_nome = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.calendario_Inp = new System.Windows.Forms.MonthCalendar();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.PageVendas = new System.Windows.Forms.TabPage();
             this.label30 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
+            this.lb_vd_nome = new System.Windows.Forms.Label();
+            this.data_label = new System.Windows.Forms.Label();
+            this.frmPaga_label = new System.Windows.Forms.Label();
+            this.troco_label = new System.Windows.Forms.Label();
+            this.recebido_label = new System.Windows.Forms.Label();
+            this.total_label = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btn_addItem = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -67,53 +78,72 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.btn_Cancelar = new System.Windows.Forms.Button();
+            this.btn_Finalizar = new System.Windows.Forms.Button();
+            this.dinheiro_Inp = new System.Windows.Forms.TextBox();
+            this.deb_Inp = new System.Windows.Forms.TextBox();
+            this.cred_Inp = new System.Windows.Forms.TextBox();
+            this.rad_Deb = new System.Windows.Forms.RadioButton();
+            this.rad_Cred = new System.Windows.Forms.RadioButton();
+            this.rad_dinheiro = new System.Windows.Forms.RadioButton();
             this.label8 = new System.Windows.Forms.Label();
-            this.listView2 = new System.Windows.Forms.ListView();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.list_Pd = new System.Windows.Forms.ListView();
             this.Codigo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Quantidade = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Nome = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Preco = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Total = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.preco_Inp = new System.Windows.Forms.TextBox();
+            this.nomePd_Inp = new System.Windows.Forms.TextBox();
+            this.qtd_Inp = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cod_Inp = new System.Windows.Forms.TextBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.PageProdutos = new System.Windows.Forms.TabPage();
-            this.button8 = new System.Windows.Forms.Button();
-            this.label41 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.alt_Codigo = new System.Windows.Forms.MaskedTextBox();
+            this.codigo_Pd = new System.Windows.Forms.MaskedTextBox();
+            this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.alt_img = new System.Windows.Forms.PictureBox();
+            this.pictureBox34 = new System.Windows.Forms.PictureBox();
+            this.alt_name = new System.Windows.Forms.TextBox();
+            this.alt_tipo = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.alt_unidade = new System.Windows.Forms.TextBox();
+            this.tipo_unidade_Pd = new System.Windows.Forms.ComboBox();
+            this.alt_desativo = new System.Windows.Forms.RadioButton();
+            this.alt_ativo = new System.Windows.Forms.RadioButton();
+            this.desativo_Pd = new System.Windows.Forms.RadioButton();
+            this.ativo_Pd = new System.Windows.Forms.RadioButton();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.alt_btn = new System.Windows.Forms.Button();
             this.label42 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.alt_estoque = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.alt_Preco = new System.Windows.Forms.TextBox();
             this.label40 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label37 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.unidade_Pd = new System.Windows.Forms.TextBox();
             this.label36 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.estoque_Pd = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.preco_Pd = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.nome_Pd = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
+            this.lb_pd_nome = new System.Windows.Forms.Label();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.Img_Produtos = new System.Windows.Forms.PictureBox();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.PageFuncionários = new System.Windows.Forms.TabPage();
             this.label58 = new System.Windows.Forms.Label();
             this.textBox26 = new System.Windows.Forms.TextBox();
@@ -140,9 +170,15 @@
             this.label46 = new System.Windows.Forms.Label();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
+            this.lb_fn_nome = new System.Windows.Forms.Label();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.PageRelatório = new System.Windows.Forms.TabPage();
-            this.label57 = new System.Windows.Forms.Label();
+            this.lb_rl_nome = new System.Windows.Forms.Label();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -154,59 +190,45 @@
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.PagePerfil.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.PageVendas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.PageProdutos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alt_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Img_Produtos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             this.PageFuncionários.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             this.PageRelatório.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -226,26 +248,32 @@
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1090, 530);
-            this.tabControl1.TabIndex = 21;
+            this.tabControl1.TabIndex = 1;
             // 
             // PagePerfil
             // 
             this.PagePerfil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.PagePerfil.Controls.Add(this.progressBar1);
-            this.PagePerfil.Controls.Add(this.richTextBox1);
-            this.PagePerfil.Controls.Add(this.label6);
-            this.PagePerfil.Controls.Add(this.label5);
-            this.PagePerfil.Controls.Add(this.pictureBox9);
-            this.PagePerfil.Controls.Add(this.label4);
-            this.PagePerfil.Controls.Add(this.label3);
             this.PagePerfil.Controls.Add(this.label2);
+            this.PagePerfil.Controls.Add(this.saida_pf);
+            this.PagePerfil.Controls.Add(this.entrada_pf);
+            this.PagePerfil.Controls.Add(this.lb_pf_cargo);
+            this.PagePerfil.Controls.Add(this.lb_pf_email);
+            this.PagePerfil.Controls.Add(this.lb_pf_nome);
+            this.PagePerfil.Controls.Add(this.progressBar1);
+            this.PagePerfil.Controls.Add(this.recado_Inp);
+            this.PagePerfil.Controls.Add(this.saida);
+            this.PagePerfil.Controls.Add(this.entrada);
+            this.PagePerfil.Controls.Add(this.pictureBox9);
+            this.PagePerfil.Controls.Add(this.lb_cargo);
+            this.PagePerfil.Controls.Add(this.lb_email);
+            this.PagePerfil.Controls.Add(this.lb_nome);
             this.PagePerfil.Controls.Add(this.listView1);
             this.PagePerfil.Controls.Add(this.label1);
             this.PagePerfil.Controls.Add(this.pictureBox7);
             this.PagePerfil.Controls.Add(this.pictureBox5);
             this.PagePerfil.Controls.Add(this.button2);
             this.PagePerfil.Controls.Add(this.button1);
-            this.PagePerfil.Controls.Add(this.monthCalendar1);
+            this.PagePerfil.Controls.Add(this.calendario_Inp);
             this.PagePerfil.Controls.Add(this.pictureBox4);
             this.PagePerfil.Controls.Add(this.pictureBox3);
             this.PagePerfil.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -256,6 +284,73 @@
             this.PagePerfil.TabIndex = 0;
             this.PagePerfil.Text = "Perfil";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label2.Font = new System.Drawing.Font("Roboto Slab", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(710, 214);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(242, 36);
+            this.label2.TabIndex = 48;
+            this.label2.Text = "Mural de Recados";
+            // 
+            // saida_pf
+            // 
+            this.saida_pf.AutoSize = true;
+            this.saida_pf.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saida_pf.ForeColor = System.Drawing.Color.White;
+            this.saida_pf.Location = new System.Drawing.Point(583, 136);
+            this.saida_pf.Name = "saida_pf";
+            this.saida_pf.Size = new System.Drawing.Size(53, 23);
+            this.saida_pf.TabIndex = 47;
+            this.saida_pf.Text = "Saida";
+            // 
+            // entrada_pf
+            // 
+            this.entrada_pf.AutoSize = true;
+            this.entrada_pf.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.entrada_pf.ForeColor = System.Drawing.Color.White;
+            this.entrada_pf.Location = new System.Drawing.Point(184, 136);
+            this.entrada_pf.Name = "entrada_pf";
+            this.entrada_pf.Size = new System.Drawing.Size(73, 23);
+            this.entrada_pf.TabIndex = 46;
+            this.entrada_pf.Text = "Entrada";
+            // 
+            // lb_pf_cargo
+            // 
+            this.lb_pf_cargo.AutoSize = true;
+            this.lb_pf_cargo.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_pf_cargo.ForeColor = System.Drawing.Color.White;
+            this.lb_pf_cargo.Location = new System.Drawing.Point(194, 83);
+            this.lb_pf_cargo.Name = "lb_pf_cargo";
+            this.lb_pf_cargo.Size = new System.Drawing.Size(56, 23);
+            this.lb_pf_cargo.TabIndex = 45;
+            this.lb_pf_cargo.Text = "Cargo";
+            // 
+            // lb_pf_email
+            // 
+            this.lb_pf_email.AutoSize = true;
+            this.lb_pf_email.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_pf_email.ForeColor = System.Drawing.Color.White;
+            this.lb_pf_email.Location = new System.Drawing.Point(194, 48);
+            this.lb_pf_email.Name = "lb_pf_email";
+            this.lb_pf_email.Size = new System.Drawing.Size(56, 23);
+            this.lb_pf_email.TabIndex = 44;
+            this.lb_pf_email.Text = "Email";
+            // 
+            // lb_pf_nome
+            // 
+            this.lb_pf_nome.AutoSize = true;
+            this.lb_pf_nome.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_pf_nome.ForeColor = System.Drawing.Color.White;
+            this.lb_pf_nome.Location = new System.Drawing.Point(194, 13);
+            this.lb_pf_nome.Name = "lb_pf_nome";
+            this.lb_pf_nome.Size = new System.Drawing.Size(102, 23);
+            this.lb_pf_nome.TabIndex = 43;
+            this.lb_pf_nome.Text = "Operador(a)";
+            // 
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(189, 161);
@@ -265,68 +360,73 @@
             this.progressBar1.TabIndex = 19;
             this.progressBar1.Value = 50;
             // 
-            // richTextBox1
+            // recado_Inp
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 382);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(516, 102);
-            this.richTextBox1.TabIndex = 18;
-            this.richTextBox1.Text = "";
+            this.recado_Inp.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recado_Inp.Location = new System.Drawing.Point(12, 382);
+            this.recado_Inp.Name = "recado_Inp";
+            this.recado_Inp.Size = new System.Drawing.Size(516, 102);
+            this.recado_Inp.TabIndex = 18;
+            this.recado_Inp.Text = "";
             // 
-            // label6
+            // saida
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(532, 130);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(251, 25);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Saída 00/00/0000 - 00:00";
+            this.saida.AutoSize = true;
+            this.saida.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saida.ForeColor = System.Drawing.Color.White;
+            this.saida.Location = new System.Drawing.Point(532, 134);
+            this.saida.Name = "saida";
+            this.saida.Size = new System.Drawing.Size(0, 25);
+            this.saida.TabIndex = 17;
             // 
-            // label5
+            // entrada
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(188, 130);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(272, 25);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "Entrada 00/00/0000 - 00:00";
+            this.entrada.AutoSize = true;
+            this.entrada.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.entrada.ForeColor = System.Drawing.Color.White;
+            this.entrada.Location = new System.Drawing.Point(188, 134);
+            this.entrada.Name = "entrada";
+            this.entrada.Size = new System.Drawing.Size(0, 25);
+            this.entrada.TabIndex = 16;
             // 
-            // label4
+            // pictureBox9
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(188, 82);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 25);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "Cargo";
+            this.pictureBox9.Image = global::Activity_DS.Properties.Resources.Screenshot_3;
+            this.pictureBox9.Location = new System.Drawing.Point(188, 112);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(298, 4);
+            this.pictureBox9.TabIndex = 15;
+            this.pictureBox9.TabStop = false;
             // 
-            // label3
+            // lb_cargo
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(188, 45);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 25);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "E-mail";
+            this.lb_cargo.AutoSize = true;
+            this.lb_cargo.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_cargo.ForeColor = System.Drawing.Color.White;
+            this.lb_cargo.Location = new System.Drawing.Point(188, 82);
+            this.lb_cargo.Name = "lb_cargo";
+            this.lb_cargo.Size = new System.Drawing.Size(0, 25);
+            this.lb_cargo.TabIndex = 14;
             // 
-            // label2
+            // lb_email
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(188, 8);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 25);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Nome";
+            this.lb_email.AutoSize = true;
+            this.lb_email.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_email.ForeColor = System.Drawing.Color.White;
+            this.lb_email.Location = new System.Drawing.Point(188, 45);
+            this.lb_email.Name = "lb_email";
+            this.lb_email.Size = new System.Drawing.Size(0, 25);
+            this.lb_email.TabIndex = 13;
+            // 
+            // lb_nome
+            // 
+            this.lb_nome.AutoSize = true;
+            this.lb_nome.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_nome.ForeColor = System.Drawing.Color.White;
+            this.lb_nome.Location = new System.Drawing.Point(188, 8);
+            this.lb_nome.Name = "lb_nome";
+            this.lb_nome.Size = new System.Drawing.Size(0, 25);
+            this.lb_nome.TabIndex = 12;
             // 
             // listView1
             // 
@@ -347,9 +447,26 @@
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label1.Location = new System.Drawing.Point(710, 214);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(239, 36);
+            this.label1.Size = new System.Drawing.Size(0, 36);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Mural de Recados";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pictureBox7.Location = new System.Drawing.Point(558, 211);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(516, 40);
+            this.pictureBox7.TabIndex = 7;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Gray;
+            this.pictureBox5.Location = new System.Drawing.Point(538, 204);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(10, 295);
+            this.pictureBox5.TabIndex = 5;
+            this.pictureBox5.TabStop = false;
             // 
             // button2
             // 
@@ -360,6 +477,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Limpar\r\n";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -371,32 +489,53 @@
             this.button1.Text = "Inserir Recado";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // monthCalendar1
+            // calendario_Inp
             // 
-            this.monthCalendar1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.monthCalendar1.Font = new System.Drawing.Font("Roboto Slab", 13F, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.monthCalendar1.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.monthCalendar1.Location = new System.Drawing.Point(38, 211);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 2;
-            this.monthCalendar1.TitleBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.calendario_Inp.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.calendario_Inp.Font = new System.Drawing.Font("Roboto Slab", 13F, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calendario_Inp.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.calendario_Inp.Location = new System.Drawing.Point(38, 211);
+            this.calendario_Inp.Name = "calendario_Inp";
+            this.calendario_Inp.TabIndex = 2;
+            this.calendario_Inp.TitleBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Activity_DS.Properties.Resources.Screenshot_3;
+            this.pictureBox4.Location = new System.Drawing.Point(-4, 190);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(1108, 14);
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox3.Image = global::Activity_DS.Properties.Resources.logo_be;
+            this.pictureBox3.Location = new System.Drawing.Point(9, 8);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(172, 172);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
             // PageVendas
             // 
             this.PageVendas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.PageVendas.Controls.Add(this.label30);
-            this.PageVendas.Controls.Add(this.label29);
-            this.PageVendas.Controls.Add(this.label28);
-            this.PageVendas.Controls.Add(this.label27);
-            this.PageVendas.Controls.Add(this.label26);
-            this.PageVendas.Controls.Add(this.label25);
-            this.PageVendas.Controls.Add(this.label24);
+            this.PageVendas.Controls.Add(this.lb_vd_nome);
+            this.PageVendas.Controls.Add(this.data_label);
+            this.PageVendas.Controls.Add(this.frmPaga_label);
+            this.PageVendas.Controls.Add(this.troco_label);
+            this.PageVendas.Controls.Add(this.recebido_label);
+            this.PageVendas.Controls.Add(this.total_label);
             this.PageVendas.Controls.Add(this.label23);
             this.PageVendas.Controls.Add(this.label22);
             this.PageVendas.Controls.Add(this.label21);
             this.PageVendas.Controls.Add(this.label20);
             this.PageVendas.Controls.Add(this.label19);
-            this.PageVendas.Controls.Add(this.button5);
+            this.PageVendas.Controls.Add(this.btn_addItem);
             this.PageVendas.Controls.Add(this.label18);
             this.PageVendas.Controls.Add(this.label17);
             this.PageVendas.Controls.Add(this.label16);
@@ -407,24 +546,24 @@
             this.PageVendas.Controls.Add(this.label11);
             this.PageVendas.Controls.Add(this.label10);
             this.PageVendas.Controls.Add(this.label9);
-            this.PageVendas.Controls.Add(this.button3);
-            this.PageVendas.Controls.Add(this.button4);
-            this.PageVendas.Controls.Add(this.textBox7);
-            this.PageVendas.Controls.Add(this.textBox6);
-            this.PageVendas.Controls.Add(this.textBox5);
-            this.PageVendas.Controls.Add(this.radioButton3);
-            this.PageVendas.Controls.Add(this.radioButton2);
-            this.PageVendas.Controls.Add(this.radioButton1);
+            this.PageVendas.Controls.Add(this.btn_Cancelar);
+            this.PageVendas.Controls.Add(this.btn_Finalizar);
+            this.PageVendas.Controls.Add(this.dinheiro_Inp);
+            this.PageVendas.Controls.Add(this.deb_Inp);
+            this.PageVendas.Controls.Add(this.cred_Inp);
+            this.PageVendas.Controls.Add(this.rad_Deb);
+            this.PageVendas.Controls.Add(this.rad_Cred);
+            this.PageVendas.Controls.Add(this.rad_dinheiro);
             this.PageVendas.Controls.Add(this.label8);
             this.PageVendas.Controls.Add(this.pictureBox14);
             this.PageVendas.Controls.Add(this.pictureBox12);
             this.PageVendas.Controls.Add(this.pictureBox11);
-            this.PageVendas.Controls.Add(this.listView2);
-            this.PageVendas.Controls.Add(this.textBox4);
-            this.PageVendas.Controls.Add(this.textBox3);
-            this.PageVendas.Controls.Add(this.textBox2);
+            this.PageVendas.Controls.Add(this.list_Pd);
+            this.PageVendas.Controls.Add(this.preco_Inp);
+            this.PageVendas.Controls.Add(this.nomePd_Inp);
+            this.PageVendas.Controls.Add(this.qtd_Inp);
             this.PageVendas.Controls.Add(this.label7);
-            this.PageVendas.Controls.Add(this.textBox1);
+            this.PageVendas.Controls.Add(this.cod_Inp);
             this.PageVendas.Controls.Add(this.pictureBox10);
             this.PageVendas.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PageVendas.Location = new System.Drawing.Point(4, 31);
@@ -445,76 +584,76 @@
             this.label30.TabIndex = 44;
             this.label30.Text = "Formas de Pagamento:";
             // 
-            // label29
+            // lb_vd_nome
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(95, 20);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(102, 23);
-            this.label29.TabIndex = 42;
-            this.label29.Text = "Operador(a)";
+            this.lb_vd_nome.AutoSize = true;
+            this.lb_vd_nome.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_vd_nome.ForeColor = System.Drawing.Color.White;
+            this.lb_vd_nome.Location = new System.Drawing.Point(95, 20);
+            this.lb_vd_nome.Name = "lb_vd_nome";
+            this.lb_vd_nome.Size = new System.Drawing.Size(102, 23);
+            this.lb_vd_nome.TabIndex = 42;
+            this.lb_vd_nome.Text = "Operador(a)";
             // 
-            // label28
+            // data_label
             // 
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.White;
-            this.label28.Font = new System.Drawing.Font("Roboto Slab", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.Black;
-            this.label28.Location = new System.Drawing.Point(819, 336);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(102, 18);
-            this.label28.TabIndex = 41;
-            this.label28.Text = "00/00/00 - 00:00";
+            this.data_label.AutoSize = true;
+            this.data_label.BackColor = System.Drawing.Color.White;
+            this.data_label.Font = new System.Drawing.Font("Roboto Slab", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.data_label.ForeColor = System.Drawing.Color.Black;
+            this.data_label.Location = new System.Drawing.Point(819, 336);
+            this.data_label.Name = "data_label";
+            this.data_label.Size = new System.Drawing.Size(119, 18);
+            this.data_label.TabIndex = 41;
+            this.data_label.Text = "00/00/00 - 00:00:00";
             // 
-            // label27
+            // frmPaga_label
             // 
-            this.label27.AutoSize = true;
-            this.label27.BackColor = System.Drawing.Color.White;
-            this.label27.Font = new System.Drawing.Font("Roboto Slab", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.Black;
-            this.label27.Location = new System.Drawing.Point(819, 294);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(141, 18);
-            this.label27.TabIndex = 40;
-            this.label27.Text = "Forma de Pagamento:";
+            this.frmPaga_label.AutoSize = true;
+            this.frmPaga_label.BackColor = System.Drawing.Color.White;
+            this.frmPaga_label.Font = new System.Drawing.Font("Roboto Slab", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frmPaga_label.ForeColor = System.Drawing.Color.Black;
+            this.frmPaga_label.Location = new System.Drawing.Point(819, 294);
+            this.frmPaga_label.Name = "frmPaga_label";
+            this.frmPaga_label.Size = new System.Drawing.Size(141, 18);
+            this.frmPaga_label.TabIndex = 40;
+            this.frmPaga_label.Text = "Forma de Pagamento:";
             // 
-            // label26
+            // troco_label
             // 
-            this.label26.AutoSize = true;
-            this.label26.BackColor = System.Drawing.Color.White;
-            this.label26.Font = new System.Drawing.Font("Roboto Slab", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.Black;
-            this.label26.Location = new System.Drawing.Point(819, 252);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(46, 18);
-            this.label26.TabIndex = 39;
-            this.label26.Text = "Troco:";
+            this.troco_label.AutoSize = true;
+            this.troco_label.BackColor = System.Drawing.Color.White;
+            this.troco_label.Font = new System.Drawing.Font("Roboto Slab", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.troco_label.ForeColor = System.Drawing.Color.Black;
+            this.troco_label.Location = new System.Drawing.Point(819, 252);
+            this.troco_label.Name = "troco_label";
+            this.troco_label.Size = new System.Drawing.Size(46, 18);
+            this.troco_label.TabIndex = 39;
+            this.troco_label.Text = "Troco:";
             // 
-            // label25
+            // recebido_label
             // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.White;
-            this.label25.Font = new System.Drawing.Font("Roboto Slab", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.Black;
-            this.label25.Location = new System.Drawing.Point(819, 210);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(67, 18);
-            this.label25.TabIndex = 38;
-            this.label25.Text = "Recebido:";
+            this.recebido_label.AutoSize = true;
+            this.recebido_label.BackColor = System.Drawing.Color.White;
+            this.recebido_label.Font = new System.Drawing.Font("Roboto Slab", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recebido_label.ForeColor = System.Drawing.Color.Black;
+            this.recebido_label.Location = new System.Drawing.Point(819, 210);
+            this.recebido_label.Name = "recebido_label";
+            this.recebido_label.Size = new System.Drawing.Size(67, 18);
+            this.recebido_label.TabIndex = 38;
+            this.recebido_label.Text = "Recebido:";
             // 
-            // label24
+            // total_label
             // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.White;
-            this.label24.Font = new System.Drawing.Font("Roboto Slab", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.Black;
-            this.label24.Location = new System.Drawing.Point(819, 169);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(42, 18);
-            this.label24.TabIndex = 37;
-            this.label24.Text = "Total:";
+            this.total_label.AutoSize = true;
+            this.total_label.BackColor = System.Drawing.Color.White;
+            this.total_label.Font = new System.Drawing.Font("Roboto Slab", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.total_label.ForeColor = System.Drawing.Color.Black;
+            this.total_label.Location = new System.Drawing.Point(819, 169);
+            this.total_label.Name = "total_label";
+            this.total_label.Size = new System.Drawing.Size(42, 18);
+            this.total_label.TabIndex = 37;
+            this.total_label.Text = "Total:";
             // 
             // label23
             // 
@@ -572,15 +711,15 @@
             this.label19.TabIndex = 32;
             this.label19.Text = "Código";
             // 
-            // button5
+            // btn_addItem
             // 
-            this.button5.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(716, 134);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(56, 29);
-            this.button5.TabIndex = 31;
-            this.button5.Text = "Add";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btn_addItem.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_addItem.Location = new System.Drawing.Point(716, 134);
+            this.btn_addItem.Name = "btn_addItem";
+            this.btn_addItem.Size = new System.Drawing.Size(56, 29);
+            this.btn_addItem.TabIndex = 31;
+            this.btn_addItem.Text = "Add";
+            this.btn_addItem.UseVisualStyleBackColor = true;
             // 
             // label18
             // 
@@ -686,88 +825,89 @@
             this.label9.TabIndex = 18;
             this.label9.UseMnemonic = false;
             // 
-            // button3
+            // btn_Cancelar
             // 
-            this.button3.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(595, 387);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(159, 46);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "Cancelar Venda";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_Cancelar.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Cancelar.Location = new System.Drawing.Point(595, 387);
+            this.btn_Cancelar.Name = "btn_Cancelar";
+            this.btn_Cancelar.Size = new System.Drawing.Size(159, 46);
+            this.btn_Cancelar.TabIndex = 16;
+            this.btn_Cancelar.Text = "Cancelar Venda";
+            this.btn_Cancelar.UseVisualStyleBackColor = true;
+            this.btn_Cancelar.Click += new System.EventHandler(this.btn_Cancelar_Click);
             // 
-            // button4
+            // btn_Finalizar
             // 
-            this.button4.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(595, 440);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(159, 46);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "Finalizar Compra";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_Finalizar.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Finalizar.Location = new System.Drawing.Point(595, 440);
+            this.btn_Finalizar.Name = "btn_Finalizar";
+            this.btn_Finalizar.Size = new System.Drawing.Size(159, 46);
+            this.btn_Finalizar.TabIndex = 15;
+            this.btn_Finalizar.Text = "Finalizar Compra";
+            this.btn_Finalizar.UseVisualStyleBackColor = true;
             // 
-            // textBox7
+            // dinheiro_Inp
             // 
-            this.textBox7.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(184, 387);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(390, 29);
-            this.textBox7.TabIndex = 13;
+            this.dinheiro_Inp.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dinheiro_Inp.Location = new System.Drawing.Point(184, 387);
+            this.dinheiro_Inp.Name = "dinheiro_Inp";
+            this.dinheiro_Inp.Size = new System.Drawing.Size(390, 29);
+            this.dinheiro_Inp.TabIndex = 13;
             // 
-            // textBox6
+            // deb_Inp
             // 
-            this.textBox6.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(184, 457);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(390, 29);
-            this.textBox6.TabIndex = 12;
+            this.deb_Inp.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deb_Inp.Location = new System.Drawing.Point(184, 457);
+            this.deb_Inp.Name = "deb_Inp";
+            this.deb_Inp.Size = new System.Drawing.Size(390, 29);
+            this.deb_Inp.TabIndex = 12;
             // 
-            // textBox5
+            // cred_Inp
             // 
-            this.textBox5.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(184, 422);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(390, 29);
-            this.textBox5.TabIndex = 11;
+            this.cred_Inp.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cred_Inp.Location = new System.Drawing.Point(184, 422);
+            this.cred_Inp.Name = "cred_Inp";
+            this.cred_Inp.Size = new System.Drawing.Size(390, 29);
+            this.cred_Inp.TabIndex = 11;
             // 
-            // radioButton3
+            // rad_Deb
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.ForeColor = System.Drawing.Color.White;
-            this.radioButton3.Location = new System.Drawing.Point(82, 460);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(76, 26);
-            this.radioButton3.TabIndex = 10;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Débito";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rad_Deb.AutoSize = true;
+            this.rad_Deb.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rad_Deb.ForeColor = System.Drawing.Color.White;
+            this.rad_Deb.Location = new System.Drawing.Point(82, 460);
+            this.rad_Deb.Name = "rad_Deb";
+            this.rad_Deb.Size = new System.Drawing.Size(76, 26);
+            this.rad_Deb.TabIndex = 10;
+            this.rad_Deb.TabStop = true;
+            this.rad_Deb.Text = "Débito";
+            this.rad_Deb.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rad_Cred
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.Color.White;
-            this.radioButton2.Location = new System.Drawing.Point(82, 425);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(83, 26);
-            this.radioButton2.TabIndex = 9;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Crédito";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rad_Cred.AutoSize = true;
+            this.rad_Cred.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rad_Cred.ForeColor = System.Drawing.Color.White;
+            this.rad_Cred.Location = new System.Drawing.Point(82, 425);
+            this.rad_Cred.Name = "rad_Cred";
+            this.rad_Cred.Size = new System.Drawing.Size(83, 26);
+            this.rad_Cred.TabIndex = 9;
+            this.rad_Cred.TabStop = true;
+            this.rad_Cred.Text = "Crédito";
+            this.rad_Cred.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rad_dinheiro
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.Color.White;
-            this.radioButton1.Location = new System.Drawing.Point(82, 390);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(94, 26);
-            this.radioButton1.TabIndex = 8;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Dinheiro";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rad_dinheiro.AutoSize = true;
+            this.rad_dinheiro.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rad_dinheiro.ForeColor = System.Drawing.Color.White;
+            this.rad_dinheiro.Location = new System.Drawing.Point(82, 390);
+            this.rad_dinheiro.Name = "rad_dinheiro";
+            this.rad_dinheiro.Size = new System.Drawing.Size(94, 26);
+            this.rad_dinheiro.TabIndex = 8;
+            this.rad_dinheiro.TabStop = true;
+            this.rad_dinheiro.Text = "Dinheiro";
+            this.rad_dinheiro.UseVisualStyleBackColor = true;
             // 
             // label8
             // 
@@ -780,23 +920,52 @@
             this.label8.TabIndex = 7;
             this.label8.UseMnemonic = false;
             // 
-            // listView2
+            // pictureBox14
             // 
-            this.listView2.BackColor = System.Drawing.SystemColors.Menu;
-            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox14.Image = global::Activity_DS.Properties.Resources.icons8_pesquisar_24;
+            this.pictureBox14.Location = new System.Drawing.Point(102, 113);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 43;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.White;
+            this.pictureBox12.Location = new System.Drawing.Point(814, 77);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(245, 354);
+            this.pictureBox12.TabIndex = 24;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox11.Location = new System.Drawing.Point(789, 0);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(4, 500);
+            this.pictureBox11.TabIndex = 17;
+            this.pictureBox11.TabStop = false;
+            // 
+            // list_Pd
+            // 
+            this.list_Pd.BackColor = System.Drawing.SystemColors.Menu;
+            this.list_Pd.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.Codigo,
             this.Quantidade,
             this.Nome,
             this.Preco,
             this.Total});
-            this.listView2.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(9, 169);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(763, 188);
-            this.listView2.TabIndex = 6;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.Details;
+            this.list_Pd.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.list_Pd.HideSelection = false;
+            this.list_Pd.Location = new System.Drawing.Point(9, 169);
+            this.list_Pd.Name = "list_Pd";
+            this.list_Pd.Size = new System.Drawing.Size(763, 188);
+            this.list_Pd.TabIndex = 6;
+            this.list_Pd.UseCompatibleStateImageBehavior = false;
+            this.list_Pd.View = System.Windows.Forms.View.Details;
             // 
             // Codigo
             // 
@@ -823,32 +992,32 @@
             this.Total.Text = "Total";
             this.Total.Width = 95;
             // 
-            // textBox4
+            // preco_Inp
             // 
-            this.textBox4.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox4.Enabled = false;
-            this.textBox4.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(593, 134);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(117, 29);
-            this.textBox4.TabIndex = 5;
-            this.textBox4.Text = "R$";
+            this.preco_Inp.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.preco_Inp.Enabled = false;
+            this.preco_Inp.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.preco_Inp.Location = new System.Drawing.Point(593, 134);
+            this.preco_Inp.Name = "preco_Inp";
+            this.preco_Inp.Size = new System.Drawing.Size(117, 29);
+            this.preco_Inp.TabIndex = 5;
+            this.preco_Inp.Text = "R$";
             // 
-            // textBox3
+            // nomePd_Inp
             // 
-            this.textBox3.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(255, 134);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(332, 29);
-            this.textBox3.TabIndex = 4;
+            this.nomePd_Inp.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nomePd_Inp.Location = new System.Drawing.Point(255, 134);
+            this.nomePd_Inp.Name = "nomePd_Inp";
+            this.nomePd_Inp.Size = new System.Drawing.Size(332, 29);
+            this.nomePd_Inp.TabIndex = 4;
             // 
-            // textBox2
+            // qtd_Inp
             // 
-            this.textBox2.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(132, 134);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(117, 29);
-            this.textBox2.TabIndex = 3;
+            this.qtd_Inp.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.qtd_Inp.Location = new System.Drawing.Point(132, 134);
+            this.qtd_Inp.Name = "qtd_Inp";
+            this.qtd_Inp.Size = new System.Drawing.Size(117, 29);
+            this.qtd_Inp.TabIndex = 3;
             // 
             // label7
             // 
@@ -861,47 +1030,70 @@
             this.label7.TabIndex = 1;
             this.label7.UseMnemonic = false;
             // 
-            // textBox1
+            // cod_Inp
             // 
-            this.textBox1.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(9, 134);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(117, 29);
-            this.textBox1.TabIndex = 2;
+            this.cod_Inp.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cod_Inp.Location = new System.Drawing.Point(9, 134);
+            this.cod_Inp.Name = "cod_Inp";
+            this.cod_Inp.Size = new System.Drawing.Size(117, 29);
+            this.cod_Inp.TabIndex = 2;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.White;
+            this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox10.Image = global::Activity_DS.Properties.Resources.logo_be;
+            this.pictureBox10.Location = new System.Drawing.Point(9, 8);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(80, 80);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 0;
+            this.pictureBox10.TabStop = false;
             // 
             // PageProdutos
             // 
             this.PageProdutos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.PageProdutos.Controls.Add(this.button8);
-            this.PageProdutos.Controls.Add(this.label41);
-            this.PageProdutos.Controls.Add(this.textBox15);
+            this.PageProdutos.Controls.Add(this.alt_Codigo);
+            this.PageProdutos.Controls.Add(this.codigo_Pd);
+            this.PageProdutos.Controls.Add(this.pictureBox32);
+            this.PageProdutos.Controls.Add(this.alt_img);
+            this.PageProdutos.Controls.Add(this.pictureBox34);
+            this.PageProdutos.Controls.Add(this.alt_name);
+            this.PageProdutos.Controls.Add(this.alt_tipo);
+            this.PageProdutos.Controls.Add(this.label3);
+            this.PageProdutos.Controls.Add(this.alt_unidade);
+            this.PageProdutos.Controls.Add(this.tipo_unidade_Pd);
+            this.PageProdutos.Controls.Add(this.alt_desativo);
+            this.PageProdutos.Controls.Add(this.alt_ativo);
+            this.PageProdutos.Controls.Add(this.desativo_Pd);
+            this.PageProdutos.Controls.Add(this.ativo_Pd);
+            this.PageProdutos.Controls.Add(this.pictureBox31);
+            this.PageProdutos.Controls.Add(this.alt_btn);
             this.PageProdutos.Controls.Add(this.label42);
-            this.PageProdutos.Controls.Add(this.textBox16);
+            this.PageProdutos.Controls.Add(this.alt_estoque);
             this.PageProdutos.Controls.Add(this.label43);
-            this.PageProdutos.Controls.Add(this.textBox17);
+            this.PageProdutos.Controls.Add(this.alt_Preco);
             this.PageProdutos.Controls.Add(this.label40);
-            this.PageProdutos.Controls.Add(this.textBox14);
             this.PageProdutos.Controls.Add(this.label39);
             this.PageProdutos.Controls.Add(this.label38);
-            this.PageProdutos.Controls.Add(this.textBox13);
             this.PageProdutos.Controls.Add(this.button7);
             this.PageProdutos.Controls.Add(this.button6);
             this.PageProdutos.Controls.Add(this.label37);
-            this.PageProdutos.Controls.Add(this.textBox12);
+            this.PageProdutos.Controls.Add(this.unidade_Pd);
             this.PageProdutos.Controls.Add(this.label36);
-            this.PageProdutos.Controls.Add(this.textBox11);
+            this.PageProdutos.Controls.Add(this.estoque_Pd);
             this.PageProdutos.Controls.Add(this.label35);
-            this.PageProdutos.Controls.Add(this.textBox10);
+            this.PageProdutos.Controls.Add(this.preco_Pd);
             this.PageProdutos.Controls.Add(this.label34);
-            this.PageProdutos.Controls.Add(this.textBox9);
+            this.PageProdutos.Controls.Add(this.nome_Pd);
             this.PageProdutos.Controls.Add(this.label33);
-            this.PageProdutos.Controls.Add(this.textBox8);
             this.PageProdutos.Controls.Add(this.label32);
-            this.PageProdutos.Controls.Add(this.label31);
+            this.PageProdutos.Controls.Add(this.lb_pd_nome);
             this.PageProdutos.Controls.Add(this.pictureBox17);
             this.PageProdutos.Controls.Add(this.pictureBox16);
-            this.PageProdutos.Controls.Add(this.pictureBox15);
             this.PageProdutos.Controls.Add(this.pictureBox13);
+            this.PageProdutos.Controls.Add(this.Img_Produtos);
+            this.PageProdutos.Controls.Add(this.pictureBox30);
             this.PageProdutos.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PageProdutos.Location = new System.Drawing.Point(4, 31);
             this.PageProdutos.Name = "PageProdutos";
@@ -910,33 +1102,191 @@
             this.PageProdutos.TabIndex = 2;
             this.PageProdutos.Text = "Produtos";
             // 
-            // button8
+            // alt_Codigo
             // 
-            this.button8.Font = new System.Drawing.Font("Roboto Slab", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(681, 402);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(159, 58);
-            this.button8.TabIndex = 29;
-            this.button8.Text = "Alterar";
-            this.button8.UseVisualStyleBackColor = true;
+            this.alt_Codigo.Location = new System.Drawing.Point(535, 170);
+            this.alt_Codigo.Mask = "0000000000000";
+            this.alt_Codigo.Name = "alt_Codigo";
+            this.alt_Codigo.ResetOnSpace = false;
+            this.alt_Codigo.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.alt_Codigo.Size = new System.Drawing.Size(184, 29);
+            this.alt_Codigo.SkipLiterals = false;
+            this.alt_Codigo.TabIndex = 46;
+            this.alt_Codigo.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
-            // label41
+            // codigo_Pd
             // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Roboto Slab", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.ForeColor = System.Drawing.Color.White;
-            this.label41.Location = new System.Drawing.Point(827, 302);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(116, 26);
-            this.label41.TabIndex = 28;
-            this.label41.Text = "Quantidade";
+            this.codigo_Pd.Location = new System.Drawing.Point(13, 170);
+            this.codigo_Pd.Name = "codigo_Pd";
+            this.codigo_Pd.ResetOnSpace = false;
+            this.codigo_Pd.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.codigo_Pd.Size = new System.Drawing.Size(184, 29);
+            this.codigo_Pd.SkipLiterals = false;
+            this.codigo_Pd.TabIndex = 45;
+            this.codigo_Pd.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
-            // textBox15
+            // pictureBox32
             // 
-            this.textBox15.Location = new System.Drawing.Point(830, 328);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(130, 29);
-            this.textBox15.TabIndex = 27;
+            this.pictureBox32.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox32.Enabled = false;
+            this.pictureBox32.Image = global::Activity_DS.Properties.Resources.icons8_pesquisar_24;
+            this.pictureBox32.Location = new System.Drawing.Point(845, 191);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox32.TabIndex = 44;
+            this.pictureBox32.TabStop = false;
+            this.pictureBox32.Click += new System.EventHandler(this.pictureBox32_Click);
+            // 
+            // alt_img
+            // 
+            this.alt_img.BackColor = System.Drawing.Color.White;
+            this.alt_img.Image = global::Activity_DS.Properties.Resources.icons8_produto_1001;
+            this.alt_img.Location = new System.Drawing.Point(882, 93);
+            this.alt_img.Name = "alt_img";
+            this.alt_img.Size = new System.Drawing.Size(126, 121);
+            this.alt_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.alt_img.TabIndex = 42;
+            this.alt_img.TabStop = false;
+            // 
+            // pictureBox34
+            // 
+            this.pictureBox34.BackColor = System.Drawing.Color.Black;
+            this.pictureBox34.Location = new System.Drawing.Point(877, 88);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(136, 131);
+            this.pictureBox34.TabIndex = 43;
+            this.pictureBox34.TabStop = false;
+            // 
+            // alt_name
+            // 
+            this.alt_name.Enabled = false;
+            this.alt_name.Location = new System.Drawing.Point(535, 250);
+            this.alt_name.Name = "alt_name";
+            this.alt_name.Size = new System.Drawing.Size(459, 29);
+            this.alt_name.TabIndex = 41;
+            // 
+            // alt_tipo
+            // 
+            this.alt_tipo.Enabled = false;
+            this.alt_tipo.FormattingEnabled = true;
+            this.alt_tipo.Items.AddRange(new object[] {
+            "Un",
+            "g",
+            "Kg",
+            "L",
+            "Ml"});
+            this.alt_tipo.Location = new System.Drawing.Point(931, 327);
+            this.alt_tipo.Name = "alt_tipo";
+            this.alt_tipo.Size = new System.Drawing.Size(63, 30);
+            this.alt_tipo.TabIndex = 40;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Roboto Slab", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(827, 302);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(87, 26);
+            this.label3.TabIndex = 39;
+            this.label3.Text = "Unidade";
+            // 
+            // alt_unidade
+            // 
+            this.alt_unidade.Enabled = false;
+            this.alt_unidade.Location = new System.Drawing.Point(832, 328);
+            this.alt_unidade.Name = "alt_unidade";
+            this.alt_unidade.Size = new System.Drawing.Size(92, 29);
+            this.alt_unidade.TabIndex = 38;
+            // 
+            // tipo_unidade_Pd
+            // 
+            this.tipo_unidade_Pd.FormattingEnabled = true;
+            this.tipo_unidade_Pd.Items.AddRange(new object[] {
+            "Un",
+            "g",
+            "Kg",
+            "L",
+            "Ml"});
+            this.tipo_unidade_Pd.Location = new System.Drawing.Point(409, 327);
+            this.tipo_unidade_Pd.Name = "tipo_unidade_Pd";
+            this.tipo_unidade_Pd.Size = new System.Drawing.Size(63, 30);
+            this.tipo_unidade_Pd.TabIndex = 37;
+            // 
+            // alt_desativo
+            // 
+            this.alt_desativo.AutoSize = true;
+            this.alt_desativo.Enabled = false;
+            this.alt_desativo.ForeColor = System.Drawing.Color.White;
+            this.alt_desativo.Location = new System.Drawing.Point(765, 368);
+            this.alt_desativo.Name = "alt_desativo";
+            this.alt_desativo.Size = new System.Drawing.Size(93, 26);
+            this.alt_desativo.TabIndex = 36;
+            this.alt_desativo.TabStop = true;
+            this.alt_desativo.Text = "Desativo";
+            this.alt_desativo.UseVisualStyleBackColor = true;
+            // 
+            // alt_ativo
+            // 
+            this.alt_ativo.AutoSize = true;
+            this.alt_ativo.Enabled = false;
+            this.alt_ativo.ForeColor = System.Drawing.Color.White;
+            this.alt_ativo.Location = new System.Drawing.Point(661, 368);
+            this.alt_ativo.Name = "alt_ativo";
+            this.alt_ativo.Size = new System.Drawing.Size(68, 26);
+            this.alt_ativo.TabIndex = 35;
+            this.alt_ativo.TabStop = true;
+            this.alt_ativo.Text = "Ativo";
+            this.alt_ativo.UseVisualStyleBackColor = true;
+            // 
+            // desativo_Pd
+            // 
+            this.desativo_Pd.AutoSize = true;
+            this.desativo_Pd.ForeColor = System.Drawing.Color.White;
+            this.desativo_Pd.Location = new System.Drawing.Point(243, 368);
+            this.desativo_Pd.Name = "desativo_Pd";
+            this.desativo_Pd.Size = new System.Drawing.Size(93, 26);
+            this.desativo_Pd.TabIndex = 34;
+            this.desativo_Pd.TabStop = true;
+            this.desativo_Pd.Text = "Desativo";
+            this.desativo_Pd.UseVisualStyleBackColor = true;
+            // 
+            // ativo_Pd
+            // 
+            this.ativo_Pd.AutoSize = true;
+            this.ativo_Pd.ForeColor = System.Drawing.Color.White;
+            this.ativo_Pd.Location = new System.Drawing.Point(139, 368);
+            this.ativo_Pd.Name = "ativo_Pd";
+            this.ativo_Pd.Size = new System.Drawing.Size(68, 26);
+            this.ativo_Pd.TabIndex = 33;
+            this.ativo_Pd.TabStop = true;
+            this.ativo_Pd.Text = "Ativo";
+            this.ativo_Pd.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox31.Image = global::Activity_DS.Properties.Resources.icons8_pesquisar_24;
+            this.pictureBox31.Location = new System.Drawing.Point(320, 191);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox31.TabIndex = 32;
+            this.pictureBox31.TabStop = false;
+            this.pictureBox31.Click += new System.EventHandler(this.pictureBox31_Click);
+            // 
+            // alt_btn
+            // 
+            this.alt_btn.Enabled = false;
+            this.alt_btn.Font = new System.Drawing.Font("Roboto Slab", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.alt_btn.Location = new System.Drawing.Point(681, 416);
+            this.alt_btn.Name = "alt_btn";
+            this.alt_btn.Size = new System.Drawing.Size(159, 58);
+            this.alt_btn.TabIndex = 29;
+            this.alt_btn.Text = "Alterar";
+            this.alt_btn.UseVisualStyleBackColor = true;
+            this.alt_btn.Click += new System.EventHandler(this.alt_btn_Click);
             // 
             // label42
             // 
@@ -949,12 +1299,13 @@
             this.label42.TabIndex = 26;
             this.label42.Text = "Estoque";
             // 
-            // textBox16
+            // alt_estoque
             // 
-            this.textBox16.Location = new System.Drawing.Point(681, 328);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(130, 29);
-            this.textBox16.TabIndex = 25;
+            this.alt_estoque.Enabled = false;
+            this.alt_estoque.Location = new System.Drawing.Point(681, 328);
+            this.alt_estoque.Name = "alt_estoque";
+            this.alt_estoque.Size = new System.Drawing.Size(130, 29);
+            this.alt_estoque.TabIndex = 25;
             // 
             // label43
             // 
@@ -967,12 +1318,13 @@
             this.label43.TabIndex = 24;
             this.label43.Text = "Preço";
             // 
-            // textBox17
+            // alt_Preco
             // 
-            this.textBox17.Location = new System.Drawing.Point(535, 328);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(130, 29);
-            this.textBox17.TabIndex = 23;
+            this.alt_Preco.Enabled = false;
+            this.alt_Preco.Location = new System.Drawing.Point(535, 328);
+            this.alt_Preco.Name = "alt_Preco";
+            this.alt_Preco.Size = new System.Drawing.Size(130, 29);
+            this.alt_Preco.TabIndex = 23;
             // 
             // label40
             // 
@@ -984,13 +1336,6 @@
             this.label40.Size = new System.Drawing.Size(65, 26);
             this.label40.TabIndex = 22;
             this.label40.Text = "Nome";
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(535, 247);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(425, 29);
-            this.textBox14.TabIndex = 21;
             // 
             // label39
             // 
@@ -1014,32 +1359,27 @@
             this.label38.TabIndex = 18;
             this.label38.Text = "Código";
             // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(535, 168);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(184, 29);
-            this.textBox13.TabIndex = 17;
-            // 
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Roboto Slab", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(223, 402);
+            this.button7.Location = new System.Drawing.Point(232, 416);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(159, 58);
             this.button7.TabIndex = 15;
             this.button7.Text = "Limpar";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Roboto Slab", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(38, 402);
+            this.button6.Location = new System.Drawing.Point(47, 416);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(159, 58);
             this.button6.TabIndex = 14;
             this.button6.Text = "Cadastrar";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label37
             // 
@@ -1048,16 +1388,16 @@
             this.label37.ForeColor = System.Drawing.Color.White;
             this.label37.Location = new System.Drawing.Point(305, 302);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(116, 26);
+            this.label37.Size = new System.Drawing.Size(87, 26);
             this.label37.TabIndex = 13;
-            this.label37.Text = "Quantidade";
+            this.label37.Text = "Unidade";
             // 
-            // textBox12
+            // unidade_Pd
             // 
-            this.textBox12.Location = new System.Drawing.Point(308, 328);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(130, 29);
-            this.textBox12.TabIndex = 12;
+            this.unidade_Pd.Location = new System.Drawing.Point(310, 328);
+            this.unidade_Pd.Name = "unidade_Pd";
+            this.unidade_Pd.Size = new System.Drawing.Size(92, 29);
+            this.unidade_Pd.TabIndex = 12;
             // 
             // label36
             // 
@@ -1070,12 +1410,12 @@
             this.label36.TabIndex = 11;
             this.label36.Text = "Estoque";
             // 
-            // textBox11
+            // estoque_Pd
             // 
-            this.textBox11.Location = new System.Drawing.Point(159, 328);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(130, 29);
-            this.textBox11.TabIndex = 10;
+            this.estoque_Pd.Location = new System.Drawing.Point(159, 328);
+            this.estoque_Pd.Name = "estoque_Pd";
+            this.estoque_Pd.Size = new System.Drawing.Size(130, 29);
+            this.estoque_Pd.TabIndex = 10;
             // 
             // label35
             // 
@@ -1088,12 +1428,12 @@
             this.label35.TabIndex = 9;
             this.label35.Text = "Preço";
             // 
-            // textBox10
+            // preco_Pd
             // 
-            this.textBox10.Location = new System.Drawing.Point(13, 328);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(130, 29);
-            this.textBox10.TabIndex = 8;
+            this.preco_Pd.Location = new System.Drawing.Point(13, 328);
+            this.preco_Pd.Name = "preco_Pd";
+            this.preco_Pd.Size = new System.Drawing.Size(130, 29);
+            this.preco_Pd.TabIndex = 8;
             // 
             // label34
             // 
@@ -1106,30 +1446,23 @@
             this.label34.TabIndex = 6;
             this.label34.Text = "Nome";
             // 
-            // textBox9
+            // nome_Pd
             // 
-            this.textBox9.Location = new System.Drawing.Point(13, 247);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(425, 29);
-            this.textBox9.TabIndex = 5;
+            this.nome_Pd.Location = new System.Drawing.Point(13, 247);
+            this.nome_Pd.Name = "nome_Pd";
+            this.nome_Pd.Size = new System.Drawing.Size(459, 29);
+            this.nome_Pd.TabIndex = 5;
             // 
             // label33
             // 
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Roboto Slab", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(6, 142);
+            this.label33.Location = new System.Drawing.Point(11, 142);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(72, 26);
             this.label33.TabIndex = 4;
             this.label33.Text = "Código";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(9, 168);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(184, 29);
-            this.textBox8.TabIndex = 3;
             // 
             // label32
             // 
@@ -1142,16 +1475,69 @@
             this.label32.TabIndex = 2;
             this.label32.Text = "Cadastro de Produtos";
             // 
-            // label31
+            // lb_pd_nome
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(95, 20);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(102, 23);
-            this.label31.TabIndex = 1;
-            this.label31.Text = "Operador(a)";
+            this.lb_pd_nome.AutoSize = true;
+            this.lb_pd_nome.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_pd_nome.ForeColor = System.Drawing.Color.White;
+            this.lb_pd_nome.Location = new System.Drawing.Point(95, 20);
+            this.lb_pd_nome.Name = "lb_pd_nome";
+            this.lb_pd_nome.Size = new System.Drawing.Size(102, 23);
+            this.lb_pd_nome.TabIndex = 1;
+            this.lb_pd_nome.Text = "Operador(a)";
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox17.Image = global::Activity_DS.Properties.Resources.icons8_pesquisar_24;
+            this.pictureBox17.Location = new System.Drawing.Point(725, 170);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox17.TabIndex = 20;
+            this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.pictureBox17_Click);
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox16.Location = new System.Drawing.Point(511, 74);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(5, 439);
+            this.pictureBox16.TabIndex = 16;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackColor = System.Drawing.Color.White;
+            this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox13.Image = global::Activity_DS.Properties.Resources.logo_be;
+            this.pictureBox13.Location = new System.Drawing.Point(9, 8);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(80, 80);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 0;
+            this.pictureBox13.TabStop = false;
+            // 
+            // Img_Produtos
+            // 
+            this.Img_Produtos.BackColor = System.Drawing.Color.White;
+            this.Img_Produtos.Image = global::Activity_DS.Properties.Resources.icons8_produto_1001;
+            this.Img_Produtos.Location = new System.Drawing.Point(357, 93);
+            this.Img_Produtos.Name = "Img_Produtos";
+            this.Img_Produtos.Size = new System.Drawing.Size(126, 121);
+            this.Img_Produtos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Img_Produtos.TabIndex = 30;
+            this.Img_Produtos.TabStop = false;
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.BackColor = System.Drawing.Color.Black;
+            this.pictureBox30.Location = new System.Drawing.Point(352, 88);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(136, 131);
+            this.pictureBox30.TabIndex = 31;
+            this.pictureBox30.TabStop = false;
             // 
             // PageFuncionários
             // 
@@ -1181,7 +1567,7 @@
             this.PageFuncionários.Controls.Add(this.label46);
             this.PageFuncionários.Controls.Add(this.textBox18);
             this.PageFuncionários.Controls.Add(this.label45);
-            this.PageFuncionários.Controls.Add(this.label44);
+            this.PageFuncionários.Controls.Add(this.lb_fn_nome);
             this.PageFuncionários.Controls.Add(this.pictureBox21);
             this.PageFuncionários.Controls.Add(this.pictureBox20);
             this.PageFuncionários.Controls.Add(this.pictureBox19);
@@ -1422,21 +1808,62 @@
             this.label45.TabIndex = 2;
             this.label45.Text = "Nome";
             // 
-            // label44
+            // lb_fn_nome
             // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.ForeColor = System.Drawing.Color.White;
-            this.label44.Location = new System.Drawing.Point(95, 20);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(102, 23);
-            this.label44.TabIndex = 1;
-            this.label44.Text = "Operador(a)";
+            this.lb_fn_nome.AutoSize = true;
+            this.lb_fn_nome.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_fn_nome.ForeColor = System.Drawing.Color.White;
+            this.lb_fn_nome.Location = new System.Drawing.Point(95, 20);
+            this.lb_fn_nome.Name = "lb_fn_nome";
+            this.lb_fn_nome.Size = new System.Drawing.Size(102, 23);
+            this.lb_fn_nome.TabIndex = 1;
+            this.lb_fn_nome.Text = "Operador(a)";
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = global::Activity_DS.Properties.Resources.icons8_usuário_masculino_tipo_de_pele_com_círculo_3_100;
+            this.pictureBox21.Location = new System.Drawing.Point(926, 8);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox21.TabIndex = 28;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox20.Location = new System.Drawing.Point(679, 91);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(4, 404);
+            this.pictureBox20.TabIndex = 27;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Image = global::Activity_DS.Properties.Resources.icons8_pesquisar_24;
+            this.pictureBox19.Location = new System.Drawing.Point(169, 274);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 12;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackColor = System.Drawing.Color.White;
+            this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox18.Image = global::Activity_DS.Properties.Resources.logo_be;
+            this.pictureBox18.Location = new System.Drawing.Point(9, 8);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(80, 80);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 0;
+            this.pictureBox18.TabStop = false;
             // 
             // PageRelatório
             // 
             this.PageRelatório.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.PageRelatório.Controls.Add(this.label57);
+            this.PageRelatório.Controls.Add(this.lb_rl_nome);
             this.PageRelatório.Controls.Add(this.pictureBox23);
             this.PageRelatório.Controls.Add(this.pictureBox22);
             this.PageRelatório.Location = new System.Drawing.Point(4, 31);
@@ -1445,16 +1872,38 @@
             this.PageRelatório.TabIndex = 4;
             this.PageRelatório.Text = "Relatório";
             // 
-            // label57
+            // lb_rl_nome
             // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.ForeColor = System.Drawing.Color.White;
-            this.label57.Location = new System.Drawing.Point(95, 20);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(102, 23);
-            this.label57.TabIndex = 2;
-            this.label57.Text = "Operador(a)";
+            this.lb_rl_nome.AutoSize = true;
+            this.lb_rl_nome.Font = new System.Drawing.Font("Roboto Slab", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_rl_nome.ForeColor = System.Drawing.Color.White;
+            this.lb_rl_nome.Location = new System.Drawing.Point(95, 20);
+            this.lb_rl_nome.Name = "lb_rl_nome";
+            this.lb_rl_nome.Size = new System.Drawing.Size(102, 23);
+            this.lb_rl_nome.TabIndex = 2;
+            this.lb_rl_nome.Text = "Operador(a)";
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.BackColor = System.Drawing.Color.White;
+            this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox23.Image = global::Activity_DS.Properties.Resources.logo_be;
+            this.pictureBox23.Location = new System.Drawing.Point(9, 8);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(80, 80);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox23.TabIndex = 1;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = global::Activity_DS.Properties.Resources.icons8_histórico_médico_100__1_;
+            this.pictureBox22.Location = new System.Drawing.Point(926, 3);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox22.TabIndex = 0;
+            this.pictureBox22.TabStop = false;
             // 
             // columnHeader1
             // 
@@ -1561,199 +2010,6 @@
             this.pictureBox24.TabStop = false;
             this.pictureBox24.Click += new System.EventHandler(this.pictureBox24_Click);
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::Activity_DS.Properties.Resources.Screenshot_3;
-            this.pictureBox9.Location = new System.Drawing.Point(188, 112);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(298, 6);
-            this.pictureBox9.TabIndex = 15;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox7.Location = new System.Drawing.Point(558, 211);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(516, 40);
-            this.pictureBox7.TabIndex = 7;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox5.Location = new System.Drawing.Point(534, 203);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(18, 295);
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Activity_DS.Properties.Resources.Screenshot_3;
-            this.pictureBox4.Location = new System.Drawing.Point(-4, 190);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(1108, 14);
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.White;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Image = global::Activity_DS.Properties.Resources.logo_be;
-            this.pictureBox3.Location = new System.Drawing.Point(9, 8);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(172, 172);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox14.Image = global::Activity_DS.Properties.Resources.icons8_pesquisar_24;
-            this.pictureBox14.Location = new System.Drawing.Point(102, 113);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 43;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.White;
-            this.pictureBox12.Location = new System.Drawing.Point(814, 77);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(245, 354);
-            this.pictureBox12.TabIndex = 24;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox11.Location = new System.Drawing.Point(789, 0);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(4, 500);
-            this.pictureBox11.TabIndex = 17;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.White;
-            this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox10.Image = global::Activity_DS.Properties.Resources.logo_be;
-            this.pictureBox10.Location = new System.Drawing.Point(9, 8);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(80, 80);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 0;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::Activity_DS.Properties.Resources.icons8_pesquisar_24;
-            this.pictureBox17.Location = new System.Drawing.Point(725, 170);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox17.TabIndex = 20;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox16.Location = new System.Drawing.Point(511, 74);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(5, 439);
-            this.pictureBox16.TabIndex = 16;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = global::Activity_DS.Properties.Resources.icons8_produto_100;
-            this.pictureBox15.Location = new System.Drawing.Point(926, 8);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 7;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.BackColor = System.Drawing.Color.White;
-            this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox13.Image = global::Activity_DS.Properties.Resources.logo_be;
-            this.pictureBox13.Location = new System.Drawing.Point(9, 8);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(80, 80);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 0;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = global::Activity_DS.Properties.Resources.icons8_usuário_masculino_tipo_de_pele_com_círculo_3_100;
-            this.pictureBox21.Location = new System.Drawing.Point(926, 8);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 28;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox20.Location = new System.Drawing.Point(679, 91);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(4, 404);
-            this.pictureBox20.TabIndex = 27;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = global::Activity_DS.Properties.Resources.icons8_pesquisar_24;
-            this.pictureBox19.Location = new System.Drawing.Point(169, 274);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 12;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.BackColor = System.Drawing.Color.White;
-            this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox18.Image = global::Activity_DS.Properties.Resources.logo_be;
-            this.pictureBox18.Location = new System.Drawing.Point(9, 8);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(80, 80);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 0;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.BackColor = System.Drawing.Color.White;
-            this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox23.Image = global::Activity_DS.Properties.Resources.logo_be;
-            this.pictureBox23.Location = new System.Drawing.Point(9, 8);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(80, 80);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox23.TabIndex = 1;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Image = global::Activity_DS.Properties.Resources.icons8_histórico_médico_100__1_;
-            this.pictureBox22.Location = new System.Drawing.Point(926, 3);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox22.TabIndex = 0;
-            this.pictureBox22.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
@@ -1812,39 +2068,44 @@
             this.tabControl1.ResumeLayout(false);
             this.PagePerfil.ResumeLayout(false);
             this.PagePerfil.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.PageVendas.ResumeLayout(false);
             this.PageVendas.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.PageProdutos.ResumeLayout(false);
             this.PageProdutos.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alt_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Img_Produtos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             this.PageFuncionários.ResumeLayout(false);
             this.PageFuncionários.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             this.PageRelatório.ResumeLayout(false);
             this.PageRelatório.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -1859,27 +2120,9 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage PagePerfil;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TabPage PageProdutos;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.TabPage PageVendas;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn_addItem;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
@@ -1892,20 +2135,20 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button btn_Cancelar;
+        private System.Windows.Forms.Button btn_Finalizar;
+        private System.Windows.Forms.TextBox dinheiro_Inp;
+        private System.Windows.Forms.TextBox deb_Inp;
+        private System.Windows.Forms.TextBox cred_Inp;
+        private System.Windows.Forms.RadioButton rad_Deb;
+        private System.Windows.Forms.RadioButton rad_Cred;
+        private System.Windows.Forms.RadioButton rad_dinheiro;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ListView list_Pd;
+        private System.Windows.Forms.TextBox preco_Inp;
+        private System.Windows.Forms.TextBox nomePd_Inp;
+        private System.Windows.Forms.TextBox qtd_Inp;
+        private System.Windows.Forms.TextBox cod_Inp;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.ColumnHeader columnHeader1;
@@ -1915,11 +2158,11 @@
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.TabPage PageFuncionários;
         private System.Windows.Forms.TabPage PageRelatório;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label data_label;
+        private System.Windows.Forms.Label frmPaga_label;
+        private System.Windows.Forms.Label troco_label;
+        private System.Windows.Forms.Label recebido_label;
+        private System.Windows.Forms.Label total_label;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
@@ -1930,39 +2173,33 @@
         private System.Windows.Forms.ColumnHeader Nome;
         private System.Windows.Forms.ColumnHeader Preco;
         private System.Windows.Forms.ColumnHeader Total;
-        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label lb_vd_nome;
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox nome_Pd;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label lb_pd_nome;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox preco_Pd;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox unidade_Pd;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox estoque_Pd;
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Button alt_btn;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox alt_estoque;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox alt_Preco;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox26;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.TextBox textBox27;
@@ -1988,13 +2225,13 @@
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label lb_fn_nome;
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.PictureBox pictureBox20;
         private System.Windows.Forms.PictureBox pictureBox22;
         private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label lb_rl_nome;
         private System.Windows.Forms.PictureBox pictureBox23;
         private System.Windows.Forms.PictureBox pictureBox25;
         private System.Windows.Forms.Label label58;
@@ -2002,5 +2239,46 @@
         private System.Windows.Forms.PictureBox pictureBox27;
         private System.Windows.Forms.PictureBox pictureBox28;
         private System.Windows.Forms.PictureBox pictureBox29;
+        private System.Windows.Forms.TabPage PagePerfil;
+        private System.Windows.Forms.Label lb_pf_cargo;
+        private System.Windows.Forms.Label lb_pf_email;
+        private System.Windows.Forms.Label lb_pf_nome;
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.RichTextBox recado_Inp;
+        private System.Windows.Forms.Label saida;
+        private System.Windows.Forms.Label entrada;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Label lb_cargo;
+        private System.Windows.Forms.Label lb_email;
+        private System.Windows.Forms.Label lb_nome;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.MonthCalendar calendario_Inp;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label saida_pf;
+        private System.Windows.Forms.Label entrada_pf;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox Img_Produtos;
+        private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.RadioButton alt_desativo;
+        private System.Windows.Forms.RadioButton alt_ativo;
+        private System.Windows.Forms.RadioButton desativo_Pd;
+        private System.Windows.Forms.RadioButton ativo_Pd;
+        private System.Windows.Forms.PictureBox pictureBox31;
+        private System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.PictureBox alt_img;
+        private System.Windows.Forms.PictureBox pictureBox34;
+        private System.Windows.Forms.TextBox alt_name;
+        private System.Windows.Forms.ComboBox alt_tipo;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox alt_unidade;
+        private System.Windows.Forms.ComboBox tipo_unidade_Pd;
+        private System.Windows.Forms.MaskedTextBox codigo_Pd;
+        private System.Windows.Forms.MaskedTextBox alt_Codigo;
     }
 }
